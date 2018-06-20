@@ -11,5 +11,11 @@ client.on('message', message => {
   	}
 });
 
+client.on('message', message => {
+    if (message.content === 'おはよう') {
+    	message.reply('おはようございます！');
+  	}
+});
+
 // THIS  MUST  BE  THIS  WAY
 client.login(process.env.BOT_TOKEN);

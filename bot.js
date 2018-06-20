@@ -6,8 +6,8 @@ client.on('ready', () => {
 });
 
 client.on('message', message => {
-    if (message.content === 'こんにちわ！') {
-    	message.reply('こんにちわです！');
+    if (message.content === 'こんにちは') {
+    	message.reply('こんにちはです！');
   	}
 });
 
